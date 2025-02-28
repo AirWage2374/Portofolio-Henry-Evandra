@@ -1076,6 +1076,13 @@ section,
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact .info-item+.info-item {
   margin-top: 40px;
 }
@@ -1460,9 +1467,6 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
 
 .contact-container {
   background-color: white;
@@ -1472,7 +1476,7 @@ section,
   width: 100%;
   max-width: 500px;
   text-align: center;
-  margin-left: 300px;
+  justify-content: center;
   margin-top: -50px;
 }
 
