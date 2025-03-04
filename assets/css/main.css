@@ -429,14 +429,57 @@ h6 {
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
+@media (min-width: 360px) and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
   .ml {
-    font-size: 24px;  /* Kurangi ukuran font */
-    margin-top: 10px; /* Atur ulang margin agar tidak nabrak */
-    text-align: center; /* Opsional: Buat teks lebih rapi */
+    font-size: 24px;  
+    margin-top: 10px; 
+    text-align: center;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+  .img-fluid {
+    margin-bottom: 40px;
+  }
+  .ml {
+    font-size: 24px;  
+    margin-top: -50px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+  .ml {
+    font-size: 30px;
+  font-weight: 700;
+  margin-top: -50px;
+  text-align: justify;
+  }
+  .py-3 {
+    font-size: 13px;
+  }
+}
+
+
+@media (min-width: 1439px) and (max-width: 1920px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+  .ml {
+    font-size: 40px;
+    margin-top: -50px;
+  }
+  .py-3 {
+    font-size: 20px;
   }
 }
 
