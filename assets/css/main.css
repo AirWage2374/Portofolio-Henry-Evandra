@@ -110,9 +110,22 @@ h6 {
 }
 
 .ml {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 700;
-  margin-top: -30px;
+  margin-top: -50px;
+}
+
+.sikil {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: -50px;
+  color: #0563bb;
+}
+
+.soft-skill {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0563bb;
 }
 
 .php-email-form .loading {
@@ -419,6 +432,11 @@ h6 {
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
+  }
+  .ml {
+    font-size: 24px;  /* Kurangi ukuran font */
+    margin-top: 10px; /* Atur ulang margin agar tidak nabrak */
+    text-align: center; /* Opsional: Buat teks lebih rapi */
   }
 }
 
